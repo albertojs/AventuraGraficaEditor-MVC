@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mapa (habitacion*)>
+<!ATTLIST mapa
+	filas CDATA #REQUIRED
+	columnas CDATA #REQUIRED
+>
+
+
+<!ELEMENT habitacion (posicion,puerta*,itemLlave*,itemValor*,itemComida*)>
+<!ATTLIST habitacion
+	id CDATA #REQUIRED
+	descripcion CDATA #REQUIRED
+	esSalida (true|false) #REQUIRED
+>
+
+<!ELEMENT posicion EMPTY>
+<!ATTLIST posicion
+	fila CDATA #REQUIRED
+	columna CDATA #REQUIRED
+>
+
+<!ELEMENT puerta EMPTY>
+<!ATTLIST puerta
+	abierta (true|false) #REQUIRED
+	direccion (NORTE| SUR| ESTE| OESTE) #REQUIRED
+>
+
+<!ELEMENT itemLlave EMPTY>
+<!ATTLIST itemLlave
+	id CDATA #REQUIRED
+	descripcion CDATA #REQUIRED
+	puerta CDATA #REQUIRED
+>
+
+<!ELEMENT itemValor EMPTY>
+<!ATTLIST itemValor 
+	id CDATA #REQUIRED
+	descripcion CDATA #REQUIRED
+	puntuacion CDATA #REQUIRED
+>
+
+<!ELEMENT itemComida EMPTY>
+<!ATTLIST itemComida 
+	id CDATA #REQUIRED
+	descripcion CDATA #REQUIRED
+	usos CDATA #REQUIRED
+	vida CDATA #REQUIRED
+>
+

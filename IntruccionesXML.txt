@@ -1,0 +1,67 @@
+Bienvenido a la aplicación para crear mapas para aventuras conversaacionales.
+
+Desde el menu "File" tenemos las opciones de:
+
+	* Nuevo
+	* Abrir
+	* Guardar
+	* Guardar como
+	* Intrucciones
+	* Salir
+	
+A continuación iremos explicando en detalle lo que realiza cada una de ellas.
+
+1.- NUEVO: 
+Permite crear un nuevo mapa. Para ello nos va a realizar una serie de 
+preguntas.
+La primera de ellas pregunta por el número de filas que tendrá el mapa, hay que introducir un dígito.
+La siguiente sobre el número de columnas, al igual que la anterior hay que meter un dígito.
+
+El siguiente paso será pinchar sobre una habitación y ahí nos saldrá todos los parámetros para
+configurarla.
+Empezaremos a configurarla en el pnale de "Configuracíon Habitación". Aqui tendremos que añadirla
+un identificador, una descripción y si es una salida.
+Posteriormente nos iremos al pnale de "Configuración Puertas" donde añadiremos las puertas a la 
+habitación y la dirección hacia la que apuntan, ademas de si esta abierta o cerrada.
+Una vez rellenado todos los campos le damos al botón "Añadir". Tambien cabe la posibilidad de 
+quitar una puerta introducida anteriormente.
+
+Por ultimo nos queda la "Configuración Items" donde añadiremos el inventario que deseemos a la habitación.
+Los campos a añadir son el identificador, la descripción y el tipo (llave, comida, objeto valor).
+Al seleccionar la "llave" nos saldrá un campo que deberemos rellenar con el identificador de puerta que 
+abre la llave.
+Al seleccionar "comida" nos sale la cantidad de vida que incrementa el objeto y el número de usos que puede 
+tener.
+Por último "objeto de valor" tendremos que introducir la cantidad de puntos que da ese objeto.
+Una vez rellenado todos los campos le damos al botón "Añadir". Tambien cabe la posibilidad de 
+quitar una objeto añadido anteriormente.
+
+Por ultimo cuando tengamos todos estos campos rellenos tenemos que dal al boton "Guardar Habitación".
+
+Estos pasos los deberemos de seguir por cada habitación que deseemos añadir en el mapa.
+
+Si queremos eliminar una habitación basta con situarnos encima de ella y dar al boton de "Eliminar habitación".
+
+
+2.- ABRIR:
+Esta opción sirve para abrir un mapa y modificarlo. Para modificarlo se seguira los pasos mencionados 
+anteriormente.
+
+
+3.- GUARDAR
+Una vez creado o modificado el mapa, esta opción nos dará la opción de guardarlo en nuestro equipo.
+Si hemos abierto un mapa para modificarlo lo guardará con el mismo nombre y misma ruta de donde lo abrimos.
+En cambio si se ha creado de 0, nos dirá a introducir un nombre y la ruta donde almacenarlo.
+
+
+4.- GUARDAR COMO
+Esta opción nos da la oportunidad de guardar el mapa con el nombre que deseemos y la ruta donde digamos.
+
+5.- INSTRUCCIONES:
+Muestra las opciones del juego.
+
+6.- SALIR
+Sale del juego.
+
+
+Si tiene alguna duda o consulta contacte con el proveedor de la aplicación.
